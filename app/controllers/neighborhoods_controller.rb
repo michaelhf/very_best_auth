@@ -1,4 +1,13 @@
 class NeighborhoodsController < ApplicationController
+
+  # before_action :ensure_group_a
+
+  # def ensure_group_a
+  #   if current_user.username[0] != "a"
+  #     redirect_to root_url, :alert => "Not authorized."
+  #   end
+  # end
+
   def index
     @neighborhoods = Neighborhood.all
   end
