@@ -9,7 +9,8 @@ class NeighborhoodsController < ApplicationController
   # end
 
   def index
-    @neighborhoods = Neighborhood.all
+    giraffe = "Howdy"
+    @neighborhoods = Neighborhood.zebra
   end
 
   def show
